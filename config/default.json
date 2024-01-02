@@ -1,0 +1,5 @@
+{
+  "TELEGRAM_TOKEN": "6032720209:AAFCySjkNZibu37HM0wRkMk6hdFBELMA-vg",
+  "CHAT_GPT_API_KEY": "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",
+  "MONGO_DB_CLIENT": "mongodb+srv://admin:5nmLtj8dZkm5lrjb@cluster0.yk5fmhj.mongodb.net/?retryWrites=true&w=majority"
+}
