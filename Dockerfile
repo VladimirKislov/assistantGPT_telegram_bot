@@ -1,8 +1,6 @@
-// FROM node:16-alpine
-FROM node:lts-alpine as Build
+FROM node:16-alpine
 
-// WORKDIR /app
-WORKDIR /tmp
+WORKDIR /app
 
 COPY package*.json ./
 
@@ -12,8 +10,8 @@ RUN npm ci
 
 COPY . .
 
-//ENV PORT=3000
+ENV PORT=3000
 
-//EXPOSE $PORT
+EXPOSE $PORT
 
 CMD ["npm", "start"]
